@@ -13,7 +13,10 @@
       "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch:*)",
       "Bash(git diff-files:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(rm:*)",
+      "Bash(git reflog:*)",
+      "Bash(git gc:*)"
     ],
     "deny": [],
     "ask": []
