@@ -6,7 +6,8 @@
       "Bash(pip3 install:*)",
       "Bash(chmod:*)",
       "Bash(claude --version:*)",
-      "Bash(git check-ignore:*)"
+      "Bash(git check-ignore:*)",
+      "Bash(git log:*)"
     ],
     "deny": [],
     "ask": []
