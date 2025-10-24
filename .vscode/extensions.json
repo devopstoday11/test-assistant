@@ -1,0 +1,26 @@
+{
+  // Extensions configuration for test-assistant project
+  // This file controls which VS Code extensions are recommended or disabled for this workspace
+
+  // Recommended extensions (currently empty - add extensions you want enabled)
+  "recommendations": [
+    // Example format:
+    // "ms-python.python",
+    // "ms-python.vscode-pylance",
+    // "charliermarsh.ruff"
+  ],
+
+  // Unwanted extensions (extensions that should NOT be used in this project)
+  // Starting with an aggressive list to disable most common extensions
+  // Remove items from this list as you want to enable specific extensions
+  "unwantedRecommendations": [
+    // Add extension IDs here that you want to disable
+    // Example: "ms-vscode.cpptools"
+  ]
+
+  // NOTE: VS Code doesn't have a built-in way to disable ALL extensions for a workspace
+  // The approach is:
+  // 1. Keep "recommendations" list for extensions you WANT
+  // 2. Keep "unwantedRecommendations" for extensions you DON'T want
+  // 3. Use settings.json to disable specific extension features
+}

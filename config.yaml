@@ -1,0 +1,43 @@
+# test-assistant configuration
+
+# REQUIRED: Directory to monitor for new files
+watch_path: "/path/to/watch"
+
+# REQUIRED: Prompt prefix for claude CLI
+claude_prompt: "Analyze this file and provide insights:"
+
+# File extensions to watch (empty list [] = watch all files)
+file_extensions:
+  - ".txt"
+  - ".py"
+  - ".md"
+
+# ========== OPTIONAL SETTINGS (with defaults) ==========
+
+# Dry run mode: if true, files are renamed but claude CLI is NOT triggered
+# Useful for testing file renaming without actually calling Claude
+dry_run: false
+
+# Timestamp format for renamed files
+# Options: "mmddyy-HH-MM-SS-AMPM", "mmddyy-HHMMSS-AMPM", "mmddyy-HH:MM:SS-AMPM"
+# Example outputs:
+#   mmddyy-HH-MM-SS-AMPM  -> 102325-10-07-50-AM
+#   mmddyy-HHMMSS-AMPM    -> 102325-100750-AM
+#   mmddyy-HH:MM:SS-AMPM  -> 102325-10:07:50-AM
+timestamp_format: "mmddyy-HH-MM-SS-AMPM"
+
+# Process existing files in watch directory on startup
+# If true, all existing files will be processed when service starts
+process_existing_files: false
+
+# Logging level: DEBUG, INFO, WARNING, or ERROR
+# DEBUG = very verbose, INFO = normal, WARNING = only warnings/errors
+log_level: "INFO"
+
+# File stability timeout (seconds)
+# Maximum time to wait for file size to stabilize before processing
+file_stability_timeout: 5.0
+
+# File stability check interval (seconds)
+# How often to check if file size has stopped changing
+file_stability_check_interval: 0.1

@@ -1,0 +1,68 @@
+{
+  // VS Code workspace settings for test-assistant project
+  // These settings only apply when this project is open
+
+  // ========== Extension Control ==========
+
+  // Disable automatic extension recommendations popup
+  "extensions.ignoreRecommendations": false,
+
+  // Don't auto-update extensions (you control when to update)
+  "extensions.autoUpdate": false,
+
+  // Don't auto-check for extension updates
+  "extensions.autoCheckUpdates": false,
+
+
+  // ========== Python Settings (for this project) ==========
+
+  "python.analysis.typeCheckingMode": "basic",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.formatting.provider": "none",
+
+
+  // ========== Editor Settings ==========
+
+  "editor.formatOnSave": false,
+  "editor.rulers": [80, 120],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+
+  // ========== File Exclusions (keep workspace clean) ==========
+
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true,
+    "**/*.egg-info": true
+  },
+
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true
+  }
+
+  // ========== EXTENSION CONTROL STRATEGY ==========
+  //
+  // VS Code doesn't support "disable all extensions except whitelist" natively.
+  // Instead, use this approach:
+  //
+  // 1. In extensions.json:
+  //    - Add extensions you WANT to "recommendations"
+  //    - Add extensions you DON'T WANT to "unwantedRecommendations"
+  //
+  // 2. In this file (settings.json):
+  //    - Add extension-specific settings to disable features
+  //    - Example: "copilot.enable": false
+  //
+  // 3. Users can also manually disable extensions per workspace:
+  //    - Right-click extension → "Disable (Workspace)"
+  //
+  // 4. Future: VS Code Profiles (coming soon) will make this easier
+  //
+}
