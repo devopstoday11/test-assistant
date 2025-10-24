@@ -17,21 +17,21 @@ Only one step remains - renaming the directory itself.
 ### Option 1: Use the Provided Script
 
 ```bash
-cd /Users/cpaladugu/Downloads
+cd /Users/username/Downloads
 bash cheat-tool/rename_directory.sh
 ```
 
 ### Option 2: Manual Rename
 
 ```bash
-cd /Users/cpaladugu/Downloads
+cd /Users/username/Downloads
 mv cheat-tool test-assistant
 ```
 
 ### Option 3: Using Finder (macOS)
 
 1. Open Finder
-2. Navigate to `/Users/cpaladugu/Downloads/`
+2. Navigate to `/Users/username/Downloads/`
 3. Right-click on `cheat-tool` folder
 4. Select "Rename"
 5. Change to `test-assistant`
@@ -41,7 +41,7 @@ mv cheat-tool test-assistant
 ## 🧪 Verify After Rename
 
 ```bash
-cd /Users/cpaladugu/Downloads/test-assistant
+cd /Users/username/Downloads/test-assistant
 
 # 1. Run tests
 python3 test_test_assistant.py
@@ -79,7 +79,7 @@ python3 main.py
 ## 🚀 Quick Start After Rename
 
 ```bash
-cd /Users/cpaladugu/Downloads/test-assistant
+cd /Users/username/Downloads/test-assistant
 
 # 1. Install dependencies (if not already done)
 pip3 install -r requirements.txt

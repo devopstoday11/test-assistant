@@ -23,7 +23,7 @@
 
 ```bash
 $ which claude
-/Users/cpaladugu/.nvm/versions/node/v24.10.0/bin/claude
+/Users/username/.nvm/versions/node/v24.10.0/bin/claude
 
 $ claude --version
 2.0.26 (Claude Code)

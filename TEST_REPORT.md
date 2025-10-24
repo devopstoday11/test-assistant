@@ -202,7 +202,7 @@ python3 main.py
 ### Option 2: Rename the Directory
 For a clean finish, rename the directory:
 ```bash
-cd /Users/cpaladugu/Downloads
+cd /Users/username/Downloads
 mv cheat-tool test-assistant
 ```
 

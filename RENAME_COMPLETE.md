@@ -75,7 +75,7 @@ OK ✓
 The code is fully updated, but the directory itself still needs to be renamed. Run this command:
 
 ```bash
-# From the parent directory (/Users/cpaladugu/Downloads/)
+# From the parent directory (/Users/username/Downloads/)
 mv cheat-tool test-assistant
 ```
 
@@ -93,7 +93,7 @@ Save this as `rename_directory.sh` and run it:
 
 CURRENT_DIR="cheat-tool"
 NEW_DIR="test-assistant"
-PARENT_DIR="/Users/cpaladugu/Downloads"
+PARENT_DIR="/Users/username/Downloads"
 
 cd "$PARENT_DIR" || exit 1
 
@@ -121,7 +121,7 @@ chmod +x rename_directory.sh
 After renaming the directory, verify everything works:
 
 ```bash
-cd /Users/cpaladugu/Downloads/test-assistant
+cd /Users/username/Downloads/test-assistant
 
 # 1. Run tests
 python3 test_test_assistant.py
@@ -153,7 +153,7 @@ Only the directory rename remains:
 
 ```bash
 # Simple one-liner from parent directory
-cd /Users/cpaladugu/Downloads && mv cheat-tool test-assistant
+cd /Users/username/Downloads && mv cheat-tool test-assistant
 ```
 
 ---

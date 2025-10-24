@@ -8,7 +8,7 @@ echo ""
 
 CURRENT_DIR="cheat-tool"
 NEW_DIR="test-assistant"
-PARENT_DIR="/Users/cpaladugu/Downloads"
+PARENT_DIR="/Users/username/Downloads"
 
 # Check if we're in the right location
 CURRENT_PATH=$(pwd)
