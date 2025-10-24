@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(claude-code --help:*)",
+      "Bash(pip3 install:*)",
+      "Bash(chmod:*)",
+      "Bash(claude --version:*)",
+      "Bash(git check-ignore:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
