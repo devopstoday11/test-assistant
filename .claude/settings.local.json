@@ -9,7 +9,11 @@
       "Bash(git check-ignore:*)",
       "Bash(git log:*)",
       "Bash(git config:*)",
-      "Bash(git filter-branch:*)"
+      "Bash(git filter-branch:*)",
+      "Bash(FILTER_BRANCH_SQUELCH_WARNING=1 git filter-branch:*)",
+      "Bash(git diff-files:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []
